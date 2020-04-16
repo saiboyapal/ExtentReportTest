@@ -45,7 +45,7 @@ public class loginPageTest extends Testbase {
         String sTitle = loginPage.loginPageTitle();
         //String sFile = TestUtil.getScreenshotAtName("validateLoginPageTitleTest");
         //System.out.println("The screenshot is at " + sFile);
-        Assert.assertEquals( sTitle,"Free CRM #1 cloud software for any business large or small");
+        Assert.assertEquals( sTitle,"Free CRM #1 cloud software for any business big or small");
     }
 
     @Test(priority = 2)
