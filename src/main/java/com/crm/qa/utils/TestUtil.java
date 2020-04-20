@@ -1,9 +1,6 @@
 package com.crm.qa.utils;
 
 import com.crm.qa.base.Testbase;
-import com.relevantcodes.extentreports.ExtentReports;
-import com.relevantcodes.extentreports.ExtentTest;
-import com.relevantcodes.extentreports.LogStatus;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.io.FileHandler;
@@ -31,7 +28,7 @@ public class TestUtil extends Testbase {
         return destination;
     }
 
-    public static void setExtent(ExtentReports extent){
+    /*public static void setExtent(ExtentReports extent){
         extent.addSystemInfo("Host Name", "Naveen Mac");
         extent.addSystemInfo("User Name", "Naveen Automation Labs");
         extent.addSystemInfo("Environment", "QA");
@@ -58,7 +55,7 @@ public class TestUtil extends Testbase {
     public static void clearExtent(ExtentReports extent) {
         extent.flush();
         extent.close();
-    }
+    }*/
 
     /*public static String getScreenshot(WebDriver driver, String screenshotName) throws IOException{
         String dateName = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
